@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.intro {
+  height: 100vh;
+  width: 100%;
+  background-image: url(image/693a8cf3b23e30bd0a7cc620fce8a650.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.intro-blur {
+  height: 100vh;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+.intro-image {
+  height: 400px;
+  width: 400px;
+  background-image: url(image/robin-williams-portrait-by-brigitte-lacombe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  outline: 3px black solid;
+  margin: auto;
+}
+.intro-text {
+  padding: 100px;
+}
+.intro-text h1 {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+.intro-text p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.bio {
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/photo_2023-10-16_15-59-42.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-attachment: fixed;
+}
+.bio-note {
+  width: 350px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 100px;
+  padding-left: 60px;
+}
+.career {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  background-attachment: fixed;
+}
+.career-image {
+  width: 100%;
+  height: 300px;
+  background-image: url(image/robinwilliams120814w.jpg);
+  background-position: center;
+}
+.career-note-p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.career-note p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 200px;
+}
+.movies {
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/159289.jpg);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.movies-lists {
+  padding-left: 50px;
+  padding-top: 100px;
+  font-size: 20px;
+}
