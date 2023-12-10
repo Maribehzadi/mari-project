@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  padding: 10px 0;
+}
+.nav a {
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+.header {
+  width: 100%;
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  color: white;
+}
+.header table {
+  width: 100%;
+  height: 100%;
+}
+.header table tr {
+  width: 100%;
+  height: 100%;
+}
+table tr .header-image {
+  width: 20%;
+  height: 100%;
+  font-size: 0;
+  color: black;
+  background-image: url(image/Saturn\ wallpaper\ by\ Pencil109\ -\ Download\ on\ ZEDGE™\ _\ bb8a.jpg);
+  background-size: cover;
+  border-radius: 10px;
+  transition: 1s;
+}
+table tr .header-image:hover {
+  width: 30%;
+  height: 100%;
+  font-size: 40px;
+  color: rgb(226, 193, 167);
+  transition: 1s, width 0.7s, color 0.7s 1.7s, font-size 1s 0.7s;
+}
+
+table tr .header-text {
+  width: 60%;
+  height: 100%;
+  background-color: black;
+  border-radius: 10px;
+  border: 40px solid black;
+  border-bottom: 0px solid black;
+}
+.image {
+  width: 100%;
+  height: 70%;
+  background-image: url(image/Road\ to\ Planet\ Saturn\ -\ iPhone\ Wallpapers.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: 1s;
+}
+.header-text:hover .image {
+  border-radius: 20px;
+  transition: 1s;
+}
+.black {
+  width: 100%;
+  height: 30%;
+  background-color: black;
+}
+.header-text .header-heading {
+  width: 80%;
+  margin: auto;
+  text-align: left;
+  color: white;
+  font-size: 40px;
+  padding-top: 10px;
+  transition: 1s;
+}
+.header-text:hover .header-heading {
+  color: blueviolet;
+  transition: 1s;
+}
+.header-text .header-paragraph {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.bio {
+  width: 100%;
+  height: 100vh;
+}
+.name {
+  width: 450px;
+  height: 100vh;
+  font-size: 0;
+  background-image: url(image/Phone\ Background\ -\ Space\ Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Physical-characteristics {
+  width: 450px;
+  height: 100vh;
+  font-size: 0;
+  background-image: url(image/Saturn\ Highway\ -\ Retro-Futuristic\ Collage\ Artwork\ Design\ Adventure\ and\ Exploration\ by\ taudalpoi\ _\ Redbubble.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Natural-satellites {
+  width: 450px;
+  height: 100vh;
+  font-size: 0;
+  background-image: url(image/Saturn\ from\ Mars\ iPhone\ Wallpaper\ -\ iPhone\ Wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.name:hover {
+  width: 450px;
+  height: 100vh;
+  background-image: url(image/Phone\ Background\ -\ Space\ Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.name:hover p {
+  height: 90%;
+  width: 40%;
+  margin: auto;
+  font-size: 16px;
+  color: white;
+  margin-top: 200px;
+}
+.Physical-characteristics:hover p {
+  height: 90%;
+  width: 40%;
+  margin: auto;
+  font-size: 16px;
+  color: white;
+}
+.Natural-satellites:hover p {
+  height: 90%;
+  width: 40%;
+  margin: auto;
+  font-size: 16px;
+  color: white;
+}
+.Physical-characteristics:hover {
+  width: 450px;
+  height: 100vh;
+  background-image: url(image/Saturn\ Highway\ -\ Retro-Futuristic\ Collage\ Artwork\ Design\ Adventure\ and\ Exploration\ by\ taudalpoi\ _\ Redbubble.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.Natural-satellites:hover {
+  width: 450px;
+  height: 100vh;
+  background-image: url(image/Saturn\ from\ Mars\ iPhone\ Wallpaper\ -\ iPhone\ Wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
