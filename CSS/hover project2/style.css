@@ -143,26 +143,27 @@ table tr .header-text {
   border-radius: 10px;
 }
 .name:hover {
-  width: 450px;
-  height: 100vh;
   background-image: url(image/Phone\ Background\ -\ Space\ Wallpaper.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
-  backdrop-filter: blur 10px;
 }
 .bio h1 {
   font-size: 20px;
   color: white;
+  padding-top: 300px;
 }
 .name:hover h1 {
   font-size: 0;
+  padding-top: 0;
 }
 .Physical-characteristics:hover h1 {
   font-size: 0;
+  padding-top: 0;
 }
 .Natural-satellites:hover h1 {
   font-size: 0;
+  padding-top: 0;
 }
 .name:hover p {
   width: 40%;
@@ -186,18 +187,29 @@ table tr .header-text {
   text-align: justify;
 }
 .Physical-characteristics:hover {
-  width: 450px;
-  height: 100vh;
   background-image: url(image/Saturn\ Highway\ -\ Retro-Futuristic\ Collage\ Artwork\ Design\ Adventure\ and\ Exploration\ by\ taudalpoi\ _\ Redbubble.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 .Natural-satellites:hover {
-  width: 450px;
-  height: 100vh;
   background-image: url(image/Saturn\ from\ Mars\ iPhone\ Wallpaper\ -\ iPhone\ Wallpapers.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+}
+.intro {
+  width: 100%;
+  height: 100vh;
+}
+.intro table {
+  width: 100%;
+  height: 100vh;
+}
+.saturn-image {
+  width: 70%;
+  height: 90vh;
+  background-image: url(image/Space\ Planet\ Art\ Wallpaper\ -\ iPhone\ Wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
