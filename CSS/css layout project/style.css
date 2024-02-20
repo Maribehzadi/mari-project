@@ -76,16 +76,31 @@ nav .search {
   font-weight: bolder;
   text-transform: uppercase;
   color: white;
+  display: inline-block;
 }
-.header.header-page {
-  width: 30%;
-  width: 70%;
+.header .header-page {
+  width: 80%;
+  display: inline-block;
+  text-align: right;
 }
 .header ul {
   list-style-type: none;
 }
 .header li {
-  color: white;
-  font-size: 17px;
+  color: rgba(255, 255, 255, 0.418);
+  font-size: 15px;
   font-weight: bolder;
+  padding: 10px 0;
+}
+.header .number {
+  font-size: 24px;
+  color: white;
+}
+.header .header-text div {
+  width: 100%;
+  display: inline-block;
+}
+.header-taxt-paragraph {
+  width: 20%;
+  color: white;
 }
