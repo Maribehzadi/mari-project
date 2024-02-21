@@ -97,10 +97,57 @@ nav .search {
   color: white;
 }
 .header .header-text div {
-  width: 100%;
+  width: 20%;
   display: inline-block;
+  margin: 15px 20px;
+  margin-top: 30px;
+}
+.header-text {
+  text-align: center;
 }
 .header-taxt-paragraph {
-  width: 20%;
-  color: white;
+  color: gray;
+  text-align: left;
+}
+.header .header-taxt-title {
+  color: gray;
+  text-align: left;
+  padding: 7px 0;
+}
+/* ......tourist..... */
+section.tourist {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  text-align: center;
+}
+.tourist-top {
+  color: aliceblue;
+  padding-top: 60px;
+}
+.tourist-top-text {
+  padding: 20px 0;
+}
+.tourist-bottm {
+  width: 85%;
+}
+.tourist-bottm-imag {
+  width: 180px;
+  height: 300px;
+  background-image: url(images/Mt_\ Fuji\,\ Japan\ Best\ View\ Travel\ Guide.jpg);
+}
+.tourist-bottm-imag {
+  width: 180px;
+  height: 300px;
+  background-image: url(images/background.jpg);
+}
+.tourist-bottm-imag {
+  width: 180px;
+  height: 300px;
+  background-image: url(images/background.jpg);
+}
+.tourist-bottm-imag {
+  width: 180px;
+  height: 300px;
+  background-image: url(images/background.jpg);
 }
