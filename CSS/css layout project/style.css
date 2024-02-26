@@ -219,9 +219,39 @@ section.tourist {
   color: white;
   list-style-type: none;
   display: inline-block;
+  vertical-align: bottom;
 }
 .life-text {
   color: white;
   list-style-type: none;
+  display: inline-block;
+  padding-bottom: 16px;
+}
+.mountain-bottm {
+  width: 370px;
+}
+.mountain-bottm-text {
+  width: 350px;
+  padding-top: 100px;
+  padding-left: 130px;
+  color: rgb(122, 117, 117);
+}
+.mountain-bottm-img div {
+  margin: auto;
+}
+.mountain-bottm-img-box1 {
+  width: 300px;
+  height: 150px;
+  background-image: url(images/7\ Tips\ for\ Seeing\ Cherry\ Blossoms\ in\ Japan.jpg);
+  background-position: center;
+  background-size: cover;
+  display: inline-block;
+}
+.mountain-bottm-img-box2 {
+  width: 300px;
+  height: 150px;
+  background-image: url(images/Untitled.jpg);
+  background-position: center;
+  background-size: cover;
   display: inline-block;
 }
