@@ -228,8 +228,9 @@ section.tourist {
   padding-bottom: 16px;
 }
 .mountain-bottm {
-  width: 100%;
+  width: 80%;
   display: inline-block;
+  margin: auto;
 }
 .mountain-bottm-text {
   width: 30%;
@@ -241,8 +242,8 @@ section.tourist {
   display: inline-block;
 }
 .mountain-bottm-img {
-  width: 70%;
-  height: auto;
+  width: 69%;
+  vertical-align: bottom;
   display: inline-block;
 }
 .mountain-bottm-img-box1 {
