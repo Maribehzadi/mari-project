@@ -8,21 +8,73 @@ body {
 /* ...nav */
 .nav {
   width: 100%;
+  height: 10vh;
   position: fixed;
+  z-index: 10;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.568));
 }
 .nav .nav-container {
   width: 85%;
   margin: auto;
 }
-.nav-container div {
+.nav-container .list li {
   display: inline-block;
+  padding: 20px 70px;
+  color: white;
 }
-/* ......section-first.... */
-.section-first {
+.nav-container .list ul {
+  text-align: center;
+}
+/* .....header...... */
+.header {
   width: 100%;
   height: 100vh;
   background-image: url(image/photo_1_2024-07-02_21-07-51.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+.header-shadow {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0),
+    black
+  );
+}
+.header-title {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 180px;
+}
+.great {
+  font-size: 50px;
+}
+.wander {
+  font-size: 15px;
+  padding: 10px 0;
+}
+/* ....section-first.. */
+.section-first {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+.section-first-text {
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+.section-first-title {
+  font-size: 30px;
+}
+.section-first-paragraph {
+  width: 450px;
+  margin: auto;
+  margin-top: 15px;
 }
