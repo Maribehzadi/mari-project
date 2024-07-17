@@ -24,6 +24,9 @@ body {
 }
 .nav-container .list ul {
   text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 /* .....header...... */
 .header {
@@ -52,10 +55,20 @@ body {
 }
 .great {
   font-size: 50px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .wander {
   font-size: 15px;
   padding: 10px 0;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.play {
+  text-align: center;
+  margin-top: 220px;
 }
 /* ....section-first.. */
 .section-first {
@@ -69,6 +82,9 @@ body {
   color: white;
   position: relative;
   top: 10px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-first-title {
   font-size: 30px;
@@ -79,7 +95,7 @@ body {
   margin-top: 15px;
 }
 .section-first-image {
-  position: relative;
+  text-align: center;
 }
 .section-first-image-box1 {
   width: 250px;
@@ -90,16 +106,20 @@ body {
   background-image: url(image/photo_2_2024-07-02_21-07-40.jpg);
   display: inline-block;
   margin-top: 70px;
-  position: relative;
-  left: 260px;
 }
 .section-first-image-box1-title {
   font-size: 20px;
   text-align: center;
   padding-top: 230px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-first-image-box1-paragraph {
   text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-first-image-box2 {
   width: 250px;
@@ -109,16 +129,21 @@ body {
   background-repeat: no-repeat;
   background-image: url(image/photo_5_2024-07-02_21-07-40.jpg);
   display: inline-block;
-  position: relative;
-  left: 280px;
+  margin: 0 10px;
 }
 .section-first-image-box2-title {
   font-size: 20px;
   text-align: center;
   padding-top: 230px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-first-image-box2-paragraph {
   text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-first-image-box3 {
   width: 250px;
@@ -128,16 +153,20 @@ body {
   background-repeat: no-repeat;
   background-image: url(image/photo_3_2024-07-02_21-07-40.jpg);
   display: inline-block;
-  position: relative;
-  left: 300px;
 }
 .section-first-image-box3-title {
   font-size: 20px;
   text-align: center;
   padding-top: 230px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-first-image-box3-paragraph {
   text-align: center;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 /* ....section-second...... */
 .section-second {
@@ -145,51 +174,109 @@ body {
   height: 100vh;
   background-color: black;
 }
-.section-second-title {
+.section-second-head {
+  margin-bottom: 50px;
   text-align: center;
+}
+.section-second-title {
   color: white;
   padding-top: 30px;
   font-size: 20px;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-second-paragraph {
   color: white;
   width: 40%;
-  margin: auto;
   margin-top: 20px;
+  margin: auto;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.section-second-image-part1 {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
 }
 .section-second-image-box1 {
-  width: 30%;
+  width: 50%;
   height: 200px;
   background-image: url(image/photo_1_2024-07-02_21-08-01.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: inline-block;
+  margin: auto;
 }
 .section-second-image-box1-text {
   color: white;
+  padding: 10px 0;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-second-image-box1-title {
   color: white;
+  padding: 15px 0;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-second-image-box1-paragraph {
   color: white;
+  width: 40%;
+  margin: auto;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.section-second-image-part2 {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
 }
 .section-second-image-box2 {
-  width: 30%;
+  width: 50%;
   height: 200px;
   background-image: url(image/photo_3_2024-07-02_21-08-01.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  display: inline-block;
+  margin: auto;
 }
 .section-second-image-box2-text {
   color: white;
+  padding: 10px 0;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-second-image-box2-title {
   color: white;
+  padding: 15px 0;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section-second-image-box2-paragraph {
   color: white;
+  width: 40%;
+  margin: auto;
+  font-family: "Questrial", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.section-third {
+  width: 100%;
+  height: 100vh;
+  background-image: url(image/photo_2_2024-07-02_21-07-51.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-third-shadow {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
 }
